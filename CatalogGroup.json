@@ -17,7 +17,14 @@
       "title": "#Is loading",
       "description": "A value indicating whether the group is currently loading.  This property\nis observable.",
       "format": "checkbox"
+    },
+    "preserveOrder": {
+      "type": "boolean",
+      "title": "#Preserve Order",
+      "description": "A value indicating whether the group order in te catalog is preserved.  This property\nis observable.",
+      "format": "checkbox"
     }
+
   },
   "description": "A group of data items and other groups in the {@link Catalog}.  A group can contain\n{@link CatalogMember|CatalogMembers} or other\n{@link CatalogGroup|CatalogGroups}.",
   "title": "Group",
